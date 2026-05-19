@@ -6,6 +6,31 @@ This is a threat intelligence entity relation extraction dataset in the APT (Adv
 
 The data is collected from APT attack descriptions related to Groups in ATT&CK. This repository contains annotations for 1,500 instances, including **7,053 entities**, **5,907 relations**, and **388 unique triple types**.
 
+## Citation
+
+If you use the CAPTIER dataset in your research, please cite our paper:
+
+**[Joint entities and relations extraction method for complex scenarios of APT attack threat intelligence analysis](https://doi.org/10.1016/j.cose.2026.104960)**
+
+Rui Qi, Ga Xiang, Lu Sun, Zicheng Tan, Jun Cao, Qunsheng Yang, Mingyue Cheng
+
+*Computers & Security*, Volume 168, 2026, 104960
+
+```bibtex
+@article{QI2026104960,
+  title = {Joint entities and relations extraction method for complex scenarios of APT attack threat intelligence analysis},
+  journal = {Computers & Security},
+  volume = {168},
+  pages = {104960},
+  year = {2026},
+  issn = {0167-4048},
+  doi = {https://doi.org/10.1016/j.cose.2026.104960},
+  url = {https://www.sciencedirect.com/science/article/pii/S0167404826001367},
+  author = {Rui Qi and Ga Xiang and Lu Sun and Zicheng Tan and Jun Cao and Qunsheng Yang and Mingyue Cheng},
+  keywords = {Joint extraction, Overlapping triples, Threat intelligence analysis, APT},
+}
+```
+
 ## 2. Data Structure
 
 The original annotations use the native relation data structure from the doccano annotation tool, stored in JSONL format. An expanded single-line example structure is as follows:
